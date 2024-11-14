@@ -1,3 +1,39 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.suo
+*.user
+*.pch
+*.bak
+*.cache
+*.log
+*.tlog
+*.lastbuildstate
+*.obj
+*.idb
+*.pdb
+*.ipch
+*.opensdf
+*.sdf
+*.aps
+*.so
+_desktop.ini
+build/
+obj/
+out/
+Core/include
+[Dd]ebug*/
+[Rr]elease*/
+[Bb]inDebug*/
+[Bb]in*/
+.vs/
+armeabi-v7a/
+Generated Files/
+
+#Ignore files for Emacs
+*~
+
+#Ignore files for CMake
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +46,5 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+#*#
