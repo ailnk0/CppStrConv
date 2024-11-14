@@ -64,7 +64,7 @@ Create a main.cpp file and add the following code:
 #include <string>
 
 #include "CppStrConv.h"
-namespace conv = bene::CppStrConv;
+using Conv = bene::CppStrConv;
 
 int main()
 {
@@ -86,7 +86,7 @@ Build and run the executable.
 ```sh
 $ cmake -S . -B build
 $ cmake --build build
-$ cd build/${your_build_dir}
+$ cd build
 $ ./my_app
 ```
 
