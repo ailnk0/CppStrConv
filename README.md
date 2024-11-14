@@ -64,7 +64,7 @@ Create a main.cpp file and add the following code:
 #include <string>
 
 #include "CppStrConv.h"
-using Conv = bene::CppStrConv;
+using conv = bene::CppStrConv;
 
 int main()
 {
